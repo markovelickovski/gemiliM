@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gemili M.</title>
+	
+	<link href="CSS\opgen.css" rel="stylesheet" type="text/css">
+	<link href="CSS\about.css" rel="stylesheet" type="text/css">
+	
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+
+	<header class="header">
+	<img src="IMG\Logo.png" alt="Gemili M logo" class="logo">
+	<div class="nav_wrapper">
+	<nav class="nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+	    		<li><a href="ProductsPage.html">Products</a></li>
+				<li><a href="About.html">About</a></li>
+				<li><a href="ContactUs.html">Contact</a></li>
+				<li><a href="#" class="login_mb">Log In</a></li>
+				<li><a class="hidden llink" href="Userpage.html">User Page</a></li>
+				<li><a class="hidden llink logout_mb" href="#">Log Out</a></li>
+		</ul>
+	</nav>
+	</div>
+	</header>
+	<section class="about parallax--about-effect">
+		<div class="container">
+			<div class="spacer"></div>
+			<div class="about_div">
+				
+				<div class="about_ins_div">
+				<h1>About Us</h1>
+				<p>Gemili M is is a company whose main business is designing and equipping office premises with office furniture.
+					Established in 1993, and in collaboration with world-renowned furniture manufacturers
+					Presently, Gemili M is located in Skopje, in the city center, we keep the doors open for anyone that is looking for good quality furniture. 
+					The furniture and chairs distributed by us possess all internationally recognized quality certificates, as well as the required warranties and spare parts.
+					The main parameters that serve as guidelines for our work team are preciseness and transparency toward our clients, maintenance of adequate spare parts inventory and creating a design space that provides happy work ambient.</p>
+				</div>
+				</div>
+		</div>
+	</section>
+	<div id="myModal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+		  <span class="close">&times;</span>
+		  <div class="tabs">
+			  <div class="tab_row">
+			  <div id="login_tab" class="s_col tab">Login</div>
+			  <div id="register_tab" class="s_col tab">Register</div>
+				</div>
+			  <div id="login_tab_view">
+				<div id="form-main">
+					<div id="form-div">
+						<form class="form" id="login_form" >
+							<p class="username">
+								<input name="username" type="text" class="feedback-input" required placeholder="Username" id="l_username" />
+							</p>
+							<p class="password">
+								<input name="password" type="password" required class="feedback-input" id="l_password" placeholder="password" />
+							</p>
+							<div class="submit">
+								<button type="submit" id="log_btn" class="button">Login</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			  </div>
+			  <div id="register_tab_view" class="hidden">
+				<div id="form-main">
+					<div id="form-div">
+						<form class="form" id="register_form" >
+							<p class="name">
+								<input name="firstname" type="text" class="feedback-input" required placeholder="First Name" id="r_firstname" />
+							</p>
+							<p class="name">
+								<input name="lastname" type="text" class="feedback-input" required placeholder="Last Name" id="r_lastname" />
+							</p>
+							<p class="username">
+								<input name="username" type="text" class="feedback-input" required placeholder="Username" id="r_username" />
+							</p>
+							<p class="email">
+								<input name="email" type="email" required class="feedback-input" id="r_email" placeholder="Email" />
+							</p>
+							<p class="address">
+								<input name="address" type="text" required class="feedback-input" id="r_address" placeholder="Address" />
+							</p>
+							<p class="password">
+								<input name="password" type="password" required class="feedback-input" id="r_password" placeholder="Password" />
+							</p>
+							<p class="password">
+								<input name="repassword" type="password" required class="feedback-input" id="r_repassword" placeholder="Repeat Password" />
+							</p>
+							<p class="file">
+								Upload profile picture<br><br>	
+								<input name="image" type="file" class="feedback-input" id="r_image" />
+							</p>
+							<div class="submit">
+								<button type="submit" class="button">Register</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			  </div>
+		  </div>
+		</div>
+	  
+	  </div>
+	
+	  <div id="croppieModal" class="cr_modal">
+	
+		<div class="cr_modal_content">
+			<div id="image_crop"></div>
+			<div class="upload">
+				<button id="crop_image" class="button button-small">Crop & Upload Image</button>
+			</div>
+		</div>
+		  
+	  
+	  </div>
+
+	<footer>
+		<div class="container foot_row">
+			<div class="col-3">
+				<p>Gemili M manufacture, service and upholstery of all kinds of office chairs and armchairs. Dont hesitate to contact us.
+				<br><strong>© All rights reserved - 2020  Gemili M</strong></p>
+			</div>
+	
+			<div class="col-1">
+				<ul class="unstyled-list">
+					<li><strong>Hours & Info </strong></li>
+					<li>11-th October  Skopje</li>
+					<li>Macedonia </li>
+					<li>Mon-Fri: 8:00am – 15:00pm </li>
+					<li>Sat: 9:00am – 15:00pm </li>
+					<li>Sun: CLOSED</li>
+				</ul>
+			</div>
+	
+			<div class="col-1">
+				<ul class="unstyled-list">
+					<li><strong>Contact</strong></li>
+					<li>info@gemili.mk</li>
+					<li>Call 02 313 3415</li>
+					<li>Call +389 70 241 415 </li>
+				</ul>
+			</div>
+	
+			<div class="col-1">
+				<ul class="unstyled-list">
+					<li><strong>Social Media</strong></li>
+					<li class="styled"><i class="fa fa-facebook-square" aria-hidden="true" ></i></a></li>
+					<li class="styled"><i	href="#" class="fa fa-instagram" aria-hidden="true"></i></li>
+					<li class="styled"><i href="#" class="fa fa-twitter-square" aria-hidden="true"></i></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+ 		
+		<script src="js/parallax.js"></script>
+		<script src="js/croppie.js"></script>
+		<script src="js/logregcrop.js"></script>
+		<script src="js/about.js"></script>
+</body>
+
+</html>
+

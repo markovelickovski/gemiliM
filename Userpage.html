@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gemili M.</title>
+	
+	<link href="CSS\opgen.css" rel="stylesheet" type="text/css">
+	<link href="CSS\userpage.css" rel="stylesheet" type="text/css">
+	
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+
+	<header class="header">
+	<img src="IMG\Logo.png" alt="Gemili M logo" class="logo">
+	<div class="nav_wrapper">
+	<nav class="nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+	    		<li><a href="ProductsPage.html">Products</a></li>
+				<li><a href="About.html">About</a></li>
+				<li><a href="ContactUs.html">Contact</a></li>
+				<li><a href="#" class="login_mb">Log In</a></li>
+				<li><a class="hidden llink" href="Userpage.html">User Page</a></li>
+				<li><a class="hidden llink logout_mb" href="#">Log Out</a></li>
+		</ul>
+	</nav>
+	</div>
+	</header>
+		<div class="spacer"></div>
+		<div class="user_row">
+				<div class="card profile_info s_col">
+					<div class="profile_pic">
+
+					</div>
+					<div class="profile_name">
+						<div id="user_full_name" class="text_b_lg"> User User</div>
+						<div id="user_username" class="text_b_sm">#Username</div>
+						<div class="sub_card">
+							<div class="user_row">
+									<div class="s_col text_b_sm">
+										Email
+									</div>
+									<div class="d_col tleft" id="user_email">email@email.com</div>
+							</div>
+							<div class="user_row">
+								<div class="s_col text_b_sm">
+									Rating
+								</div>
+								<div class="star d_col tleft" id="user_rating">5</div>
+						</div>
+
+							
+							
+						</div>
+							
+					</div>
+				</div>
+				<div class="card profile_history d_col">
+					<div class="history_title text_b_lg">User Cart</div>
+					<div id="user_cart" class="">
+
+					</div>
+					<div class="tright bold" id="wtot">Total: $0</div>
+					<div class="user_row">
+						<div class="col-1"><div class="button button-small buy_btn">Buy</div></div>
+						<div class="col-1"><div class="button button-small clear_btn">Clear Cart</div></div>
+					</div>
+
+					<div class="history_title text_b_lg">Purchase History</div>
+					<div id="user_history" class=""></div>
+					<div class="tright bold" id="hwtot">Total: $0</div>
+					<div id="" class="no_history text_b_sm">Oops. It seems like you havent bought anything yet.<br>Well? What are you waiting for?</div>
+				</div>
+		</div>
+	
+		<div id="myModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+			  <span class="close">&times;</span>
+			  <div class="tabs">
+				  <div class="tab_row">
+				  <div id="login_tab" class="s_col tab">Login</div>
+				  <div id="register_tab" class="s_col tab">Register</div>
+					</div>
+				  <div id="login_tab_view">
+					<div id="form-main">
+						<div id="form-div">
+							<form class="form" id="login_form" >
+								<p class="username">
+									<input name="username" type="text" class="feedback-input" required placeholder="Username" id="l_username" />
+								</p>
+								<p class="password">
+									<input name="password" type="password" required class="feedback-input" id="l_password" placeholder="password" />
+								</p>
+								<div class="submit">
+									<button type="submit" id="log_btn" class="button">Login</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				  </div>
+				  <div id="register_tab_view" class="hidden">
+					<div id="form-main">
+						<div id="form-div">
+							<form class="form" id="register_form" >
+								<p class="name">
+									<input name="firstname" type="text" class="feedback-input" required placeholder="First Name" id="r_firstname" />
+								</p>
+								<p class="name">
+									<input name="lastname" type="text" class="feedback-input" required placeholder="Last Name" id="r_lastname" />
+								</p>
+								<p class="username">
+									<input name="username" type="text" class="feedback-input" required placeholder="Username" id="r_username" />
+								</p>
+								<p class="email">
+									<input name="email" type="email" required class="feedback-input" id="r_email" placeholder="Email" />
+								</p>
+								<p class="address">
+									<input name="address" type="text" required class="feedback-input" id="r_address" placeholder="Address" />
+								</p>
+								<p class="password">
+									<input name="password" type="password" required class="feedback-input" id="r_password" placeholder="Password" />
+								</p>
+								<p class="password">
+									<input name="repassword" type="password" required class="feedback-input" id="r_repassword" placeholder="Repeat Password" />
+								</p>
+								<p class="file">
+									Upload profile picture<br><br>	
+									<input name="image" type="file" class="feedback-input" id="r_image" />
+								</p>
+								<div class="submit">
+									<button type="submit" class="button">Register</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				  </div>
+			  </div>
+			</div>
+		  
+		  </div>
+		
+		  <div id="croppieModal" class="cr_modal">
+		
+			<div class="cr_modal_content">
+				<div id="image_crop"></div>
+				<div class="upload">
+					<button id="crop_image" class="button button-small">Crop & Upload Image</button>
+				</div>
+			</div>
+			  
+		  
+		  </div>
+		<footer>
+			<div class="container foot_row">
+				<div class="col-3">
+					<p>Gemili M manufacture, service and upholstery of all kinds of office chairs and armchairs. Dont hesitate to contact us.
+					<br><strong>© All rights reserved - 2020  Gemili M</strong></p>
+				</div>
+		
+				<div class="col-1">
+					<ul class="unstyled-list">
+						<li><strong>Hours & Info </strong></li>
+						<li>11-th October  Skopje</li>
+						<li>Macedonia </li>
+						<li>Mon-Fri: 8:00am – 15:00pm </li>
+						<li>Sat: 9:00am – 15:00pm </li>
+						<li>Sun: CLOSED</li>
+					</ul>
+				</div>
+		
+				<div class="col-1">
+					<ul class="unstyled-list">
+						<li><strong>Contact</strong></li>
+						<li>info@gemili.mk</li>
+						<li>Call 02 313 3415</li>
+						<li>Call +389 70 241 415 </li>
+					</ul>
+				</div>
+		
+				<div class="col-1">
+					<ul class="unstyled-list">
+						<li><strong>Social Media</strong></li>
+						<li class="styled"><i class="fa fa-facebook-square" aria-hidden="true" ></i></a></li>
+						<li class="styled"><i	href="#" class="fa fa-instagram" aria-hidden="true"></i></li>
+						<li class="styled"><i href="#" class="fa fa-twitter-square" aria-hidden="true"></i></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="js/croppie.js"></script>
+  <script src="js/logregcrop.js"></script>
+  
+		<script src="js/parallax.js"></script>
+		<script src="js/userpage.js"></script>
+</body>
+
+</html>
+

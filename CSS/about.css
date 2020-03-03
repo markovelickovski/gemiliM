@@ -1,0 +1,30 @@
+.about_ins_div
+{
+	outline: 3px solid #f4e9df;
+	outline-offset: -2.5em;
+
+	margin: 5% 15%;
+    padding: 3em;
+	background: #fff;
+	opacity: 0.9;
+}
+
+
+.about_div h1
+{
+
+	margin: 0;
+	padding: 1.5em;
+	color: #06476d;
+}
+
+.about
+{
+	background-image: url(../IMG/about-us-banner.jpg);
+	background-size: cover;
+	background-position: center 0px;
+}
+.parallax--about-effect
+{
+	transition: none;
+}

@@ -1,0 +1,116 @@
+.item_row
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  vertical-align: middle;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 3em auto;
+}
+.s_col
+{
+    display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  align-self: stretch;
+
+  
+}
+.d_col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;  
+    align-self: stretch;
+
+}
+.m_right
+{
+  margin-right: 20%;
+  margin-left: auto;
+}
+
+.description
+{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.box
+{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #c0c0c0;
+    padding: 1em 3em;
+
+}
+
+.no_vert_margin
+{
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#item_img
+{
+  margin: auto;
+  border: 1px solid #06476d;
+}
+
+
+
+.desc-row::after
+{
+  content: ""; 
+  display: block;
+  margin: 0 auto; 
+  width: 80%; 
+  padding-top: 0.5em;
+  border-bottom: 0.5px solid lightgrey;
+}
+.desc-row div
+{
+  padding-top: 0.5em;
+}
+.desc-main-text
+{
+  margin-bottom: 1em;
+}
+
+/*===== quantity buttons =====*/
+
+#set_qty {
+	height: 18px;
+	width: 160px;
+	border: 0;
+	text-align: center;
+	-moz-appearance: none;
+	appearance: none;
+	background: #fff;
+	border-radius: 30px;
+  color: #06476d;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.qtybutton {
+	color: #fff;
+	cursor: pointer;
+	height: 30px;
+	background: #06476d;
+	font-size: 16px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: 500;
+	border-radius: 15px;
+	transition: .3s;
+}
+.qtybutton:hover{
+	background: #0a7ebd;
+}

@@ -1,0 +1,110 @@
+.user_row
+{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 3em auto;
+}
+
+/*===== left side =====*/
+
+.card
+{
+    border-radius: 15px;
+    box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+    height: 800px;
+    width: 90%;
+    margin: 0.5%;
+    overflow: auto;
+}
+
+.profile_info
+{
+    align-self: stretch;
+}
+
+.profile_pic
+{
+    height:400px;
+    max-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.profile_name
+{
+    margin: 1em 0;
+}
+
+.star
+{
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-star.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    text-indent: 22px;
+}
+
+
+
+#user_username
+{
+    padding-bottom: 3em;
+}
+.sub_card
+{
+    width: 90%;
+    border-top: 1px solid #c0c0c0;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+
+/*===== right side =====*/
+
+.profile_history
+{
+    padding: 3em 1em;
+}
+
+.no_history
+{
+    display: none;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 1em;
+    box-shadow: 0px 0px 5px 5px #c0c0c0;
+    padding: 5%;
+}
+
+.history_title
+{
+    text-align: left;
+    text-indent: 10%;
+    padding-bottom: 1em;
+}
+
+
+.cirow
+{
+    width: 100%;
+    height: fit-content;
+}
+
+#wtot, #hwtot
+{
+    padding-top: 2em;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.cart_title .cirow .cicol
+{
+    font-weight: bold;
+    border-bottom: 1px solid #c0c0c0;
+    margin-bottom: 1em;
+}
